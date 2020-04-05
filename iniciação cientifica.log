@@ -1,0 +1,175 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  5 APR 2020 15:16
+entering extended mode
+**"./iniciação cientifica.tex"
+("iniciação cientifica.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tree-dvips\lingmacros.sty"
+\c@enums=\count175
+\widelabel=\dimen135
+\c@tempcnt=\count176
+\c@enumsi=\count177
+\eeindent=\dimen136
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tree-dvips\tree-dvips.sty"
+tree-dvips version .91 of May 16, 1995
+\nodemargin=\dimen137
+\treelinewidth=\dimen138
+\dashlength=\dimen139
+\arrowwidth=\dimen140
+\arrowlength=\dimen141
+\arrowinset=\dimen142
+\pos@t=\toks15
+\pos@b=\toks16
+\pos@l=\toks17
+\pos@r=\toks18
+\pos@tl=\toks19
+\pos@tr=\toks20
+\pos@bl=\toks21
+\pos@br=\toks22
+\@arrow=\count178
+\@tempdimc=\dimen143
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box45
+)
+("iniciação cientifica.aux")
+\openout1 = `"iniciação cientifica.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count180
+\scratchdimen=\dimen146
+\scratchbox=\box46
+\nofMPsegments=\count181
+\nofMParguments=\count182
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen147
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+<pontesKonisberg.jpg, id=1, 345.54094pt x 282.30469pt>
+File: pontesKonisberg.jpg Graphic file (type jpg)
+<use pontesKonisberg.jpg>
+Package pdftex.def Info: pontesKonisberg.jpg  used on input line 19.
+(pdftex.def)             Requested size: 227.62537pt x 227.6274pt.
+
+[1
+
+
+Non-PDF special ignored!
+<special> header=tree-dvips91.pro
+{C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pontes
+Konisberg.jpg>]
+<grafoKönigsberg.png, id=8, 220.825pt x 171.64125pt>
+File: grafoKönigsberg.png Graphic file (type png)
+<use grafoKönigsberg.png>
+Package pdftex.def Info: grafoKönigsberg.png  used on input line 30.
+(pdftex.def)             Requested size: 170.72314pt x 170.71628pt.
+ [2 <./grafoKönigsberg.png>] [3]
+<grafoPlanar.png, id=17, 165.61874pt x 167.12437pt>
+File: grafoPlanar.png Graphic file (type png)
+<use grafoPlanar.png>
+Package pdftex.def Info: grafoPlanar.png  used on input line 56.
+(pdftex.def)             Requested size: 142.27013pt x 142.27568pt.
+<grafoDual.png, id=18, 320.69812pt x 153.57375pt>
+File: grafoDual.png Graphic file (type png)
+<use grafoDual.png>
+Package pdftex.def Info: grafoDual.png  used on input line 69.
+(pdftex.def)             Requested size: 227.62874pt x 113.81151pt.
+
+Overfull \hbox (4.07368pt too wide) in paragraph at lines 75--77
+\OT1/cmr/m/n/12 Nos prob-le-mas en-vol-vendo col-orac~ao propria de vertices
+, en-con-trar um numero
+ []
+
+[4 <./grafoPlanar.png> <./grafoDual.png>] [5] [6]
+Overfull \hbox (1.33621pt too wide) in paragraph at lines 112--114
+\OT1/cmr/m/n/12 men-tos se des-do-bram em varias areas da ci^encia da com-put
+ac~ao e matematica,
+ []
+
+[7] ("iniciação cientifica.aux") )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 98 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1286 strings out of 480934
+ 18774 string characters out of 2909674
+ 257506 words of memory out of 3000000
+ 17193 multiletter control sequences out of 15000+200000
+ 534154 words of font info for 30 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,5n,25p,666b,154s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "iniciação cientifica.pdf" (7 pages, 181094 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
