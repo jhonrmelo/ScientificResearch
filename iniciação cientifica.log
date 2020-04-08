@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  6 APR 2020 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  7 APR 2020 20:27
 entering extended mode
 **"./iniciação cientifica.tex"
 ("iniciação cientifica.tex"
@@ -136,14 +136,23 @@ File: grafoKönigsberg.png Graphic file (type png)
 <use grafoKönigsberg.png>
 Package pdftex.def Info: grafoKönigsberg.png  used on input line 40.
 (pdftex.def)             Requested size: 170.72314pt x 170.71628pt.
- [2 <./pontesKonisberg.jpg>] [3 <./grafoKönigsberg.png>]
-<grafoPlanar.png, id=18, 165.61874pt x 167.12437pt>
+ [2 <./pontesKonisberg.jpg>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+1.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+
+[3 <./grafoKönigsberg.png>]
+<grafoPlanar.png, id=19, 165.61874pt x 167.12437pt>
 File: grafoPlanar.png Graphic file (type png)
 <use grafoPlanar.png>
 Package pdftex.def Info: grafoPlanar.png  used on input line 66.
 (pdftex.def)             Requested size: 142.27013pt x 142.27568pt.
  [4 <./grafoPlanar.png>]
-<grafoDual.png, id=22, 320.69812pt x 153.57375pt>
+<grafoDual.png, id=23, 320.69812pt x 153.57375pt>
 File: grafoDual.png Graphic file (type png)
 <use grafoDual.png>
 Package pdftex.def Info: grafoDual.png  used on input line 79.
@@ -160,25 +169,23 @@ Overfull \hbox (1.33621pt too wide) in paragraph at lines 122--124
 ac~ao e matematica,
  []
 
-[7] [8] ("iniciação cientifica.aux") )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 108 ({)
-### bottom level 
+[7] [8] ("iniciação cientifica.aux") ) 
 Here is how much of TeX's memory you used:
- 1358 strings out of 480934
- 19580 string characters out of 2909674
+ 1378 strings out of 480934
+ 19913 string characters out of 2909674
  258417 words of memory out of 3000000
- 17261 multiletter control sequences out of 15000+200000
- 534453 words of font info for 31 fonts, out of 3000000 for 9000
+ 17278 multiletter control sequences out of 15000+200000
+ 534710 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,25p,666b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "iniciação cientifica.pdf" (8 pages, 194479 bytes).
+ 30i,5n,25p,677b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on "iniciação cientifica.pdf" (8 pages, 202497 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
