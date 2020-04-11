@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  9 APR 2020 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  10 APR 2020 21:59
 entering extended mode
 **"./iniciação cientifica.tex"
 ("iniciação cientifica.tex"
@@ -176,44 +176,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
- [2 <./pontesKonisberg.jpg>] [3 <./grafoKönigsberg.png>]
-<grafoPlanar.png, id=20, 165.61874pt x 167.12437pt>
+ [2 <./pontesKonisberg.jpg>]
+<vizinhanca.png, id=15, 219.82124pt x 168.63pt>
+File: vizinhanca.png Graphic file (type png)
+<use vizinhanca.png>
+Package pdftex.def Info: vizinhanca.png  used on input line 55.
+(pdftex.def)             Requested size: 142.26828pt x 142.26576pt.
+ [3 <./grafoKönigsberg.png> <./vizinhanca.png>]
+<grafoPlanar.png, id=21, 165.61874pt x 167.12437pt>
 File: grafoPlanar.png Graphic file (type png)
 <use grafoPlanar.png>
-Package pdftex.def Info: grafoPlanar.png  used on input line 70.
-(pdftex.def)             Requested size: 142.27013pt x 142.27568pt.
- [4 <./grafoPlanar.png>]
-<grafoDual.png, id=24, 320.69812pt x 153.57375pt>
+Package pdftex.def Info: grafoPlanar.png  used on input line 81.
+(pdftex.def)             Requested size: 85.3565pt x 85.35979pt.
+ [4]
+<grafoDual.png, id=25, 320.69812pt x 153.57375pt>
 File: grafoDual.png Graphic file (type png)
 <use grafoDual.png>
-Package pdftex.def Info: grafoDual.png  used on input line 85.
+Package pdftex.def Info: grafoDual.png  used on input line 91.
 (pdftex.def)             Requested size: 227.62874pt x 113.81151pt.
 
-Overfull \hbox (4.07368pt too wide) in paragraph at lines 92--94
+Overfull \hbox (4.07368pt too wide) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 Nos pro-ble-mas en-vol-vendo co-lorac~ao propria de vertices
 , en-con-trar um numero
  []
 
-[5 <./grafoDual.png>] [6] [7] [8] ("iniciação cientifica.aux") ) 
+[5 <./grafoPlanar.png> <./grafoDual.png>] [6] [7] [8]
+("iniciação cientifica.aux") ) 
 Here is how much of TeX's memory you used:
- 2039 strings out of 480934
- 29226 string characters out of 2909674
+ 2046 strings out of 480934
+ 29343 string characters out of 2909674
  280316 words of memory out of 3000000
- 17911 multiletter control sequences out of 15000+200000
+ 17918 multiletter control sequences out of 15000+200000
  536891 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,27p,676b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on "iniciação cientifica.pdf" (8 pages, 230787 bytes).
+ 30i,5n,27p,678b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "iniciação cientifica.pdf" (8 pages, 237665 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
