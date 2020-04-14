@@ -35,21 +35,21 @@
 	Após criado o conceito inicial sobre grafos, um outro matemático introduziu uma nova forma de desenharmos um grafo, William Thomas Tutte (1917-2002) definiu que um grafo poderia ser representado por vértices(pontos) e arestas(linhas), aonde os vértices são interligados por arestas conectados a eles, trazendo esta definição para o problema das sete pontes, definiríamos que ponte do mapa seria uma aresta e cada ilha seria um vértice, tendo sua definição visual parecida com a Figura 2.
 	
 	
-   \begin{figure}[!htb]
+	\begin{figure}[!htb]
 		\centering
 		\includegraphics[width=6cm, height=6cm]{grafoKönigsberg}
 		\caption{Representação do grafo das sete pontes de Königsberg}    
 	\end{figure}
-
-
+	
+	
 	\subsection{Conceitos técnicos da Teoria de Grafos}
-    Como vimos na seção anterior, após as descobertas de Euler, foram introduzidos novas maneiras de lidarmos com problemas parecidos.
+	Como vimos na seção anterior, após as descobertas de Euler, foram introduzidos novas maneiras de lidarmos com problemas parecidos.
 	Um grafo $G$ é composto por vértices $v$ e arestas $e$ sendo sua composição completa denotada como $G (v, e)$. O número de vértices contidas em um grafo é definido como a Ordem do grafo $n$ e o número de arestas é o seu Tamanho $m$. Esses conceitos iniciais sobre o tema, podem ser desdobrados em outros conceitos que complementam e inserem novas definições para o grafo.
 	
 	\subsubsection{Vizinhança de vértices}
 	
 	Em um grafo $G$ existem os vértices $u$ e $v$ ligados por uma aresta de $G$, baseado nessas afirmações podemos definir que os vértices $u$ e $v$ são adjacentes ou vizinhos, caso em nosso grafo existissem mais duas vértices ligadas a vértice $v$ sendo elas $z$ e $w$, poderíamos a partir disso definir que a vizinhança de $V$ é: $n (V) \{u, z, w\}$, representado visualmente na Figura 3. 
-		
+	
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[width=5cm, height=5cm]{vizinhanca}
@@ -69,29 +69,29 @@
 	
 	Antes de introduzirmos a motivação para o problema da coloração própria, é preciso definir o conceito de um grafo planar, visto que este tipo de grafo foi a motivação inicial para a criação da primeira definição da coloração própria de grafo.
 	Um grafo $G$ é considerado planar se puder ser desenhado no plano sem que nenhuma de suas arestas se cruzem, exemplo de um grafo planar existente na Figura 4.
-		
+	
 	
 	A primeira ideia de coloração própria se deu em 1852 aonde o matemático Francis Guthrie criou a teoria que para todo mapa o número mínimo de cores necessárias para pinta-lo para que nenhuma de suas regiões que partilhassem fronteiras fossem pintadas da mesma cor era sempre quatro.
 	
 	
 	Em 1879 Alfred Bray Kempe publicou a primeira suposta solução para a teoria das quatro cores, solução essa que foi considerada incorreta por Percy Heawood em 1890, que também foi o criador do teorema das Cinco cores, e provou a veracidade do mesmo.
-		
+	
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[width=3cm, height=3cm]{grafoPlanar}
 		\caption{Exemplo de grafo planar}    
 	\end{figure}
-
+	
 	Apesar de ser considerado incorreta a teoria de Kempe, ela foi grande influenciadora para que em 1977 Kenneth Appel (1932-2013) e Wolfgang Haken(1928) com o auxílio do uso de um computador, provassem novamente que a teoria das quatro cores era correta.
 	
 	Os mapas estudados por esses matemáticos são considerados mapas que podem ser representados por um grafo, o nome que esse grafo leva é grafo dual. 
 	
 	\begin{figure}[!htb]
 		\centering
-		 \includegraphics[width=8cm,height=4cm]{grafoDual}
+		\includegraphics[width=8cm,height=4cm]{grafoDual}
 		\caption{Exemplo de grafo Dual}    
 	\end{figure}
-
+	
 	
 	\subsubsection{Complexidade da solução}
 	
@@ -112,6 +112,22 @@
 	
 	Em uma indústria química existem $n$ produtos, aonde muitos deles compartilham o mesmo tipo de composição, produtos esses que não podem ser colocados juntos devido a possibilidade de que uma reação química estragassem os mesmos. Baseado nessa instância, qual seria o menor número de compartimentos possíveis para guardar esses produtos de forma que produtos com a mesma composição não podem ser colocados juntos.
 	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=8cm, height=8cm]{exemploProdutosQuimicos}
+		\caption{Exemplo de separação de produtos químicos}    
+	\end{figure}
+	
+	\subsubsection*{   1.3.3.3 Atribuição de frequências de rádio}
+	
+	Nesse caso o grafo nos ajuda da seguinte forma. Os transmissores (antenas) são representados como vértices. Uma estação não pode se sobrepor a outra, caso isso venha a ocorrer, causará interferência, porque elas poderiam usar a mesma frequência.
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=8cm, height=8cm]{FrequenciaDeRadio}
+		\caption{Exemplo de mapa de frequência de rádio}    
+	\end{figure}
+	
 	\subsubsection{Algoritmos de coloração conhecidos}
 	
 	Nesta seção iremos mostrar conceitos de algoritmos conhecidos que auxiliam na obtenção da melhor solução para uma instância de coloração própria, visto que a complexidade deste problema é extremamente difícil, a maioria de seus algoritmos são baseados na premissa da busca incansável, aonde iremos executar todas as situações da instância a fim de no final separar a melhor delas.
@@ -127,7 +143,7 @@
 	
 	\subsubsection*{1.2.4.3 Algoritmo de Welsh-Powell}
 	
-	Criado em 1975 é um algoritmo guloso que visa a obtenção inicial do grau de cada vértice do grafo e ordenação dos mesmos em ordem decrescente do seu grau. Dado essa ordenação será associado uma cor para o primeiro vértice da lista de vértices ordenados, e também aos próximos vértices da lista que não são adjacentes aos vértices já coloridos com a primeira cor selecionada. Será feito este mesmo processo para os próximos vértices que ainda não foram coloridos, porém agora usando a próxima cor.
+	Como citado no livro "Algoritmos e heurísticas - Desenvolvimento e avaliação de performance" escrito por Ruy Eduardo Campello e Nelson Maculan encontramos que o algoritmo de Welsh-Powell foi criado em 1976 e é um algoritmo guloso que visa a obtenção inicial do grau de cada vértice do grafo e ordenação dos mesmos em ordem decrescente do seu grau. Com base nisso sabemos que dado essa ordenação será associado uma cor para o primeiro vértice da lista de vértices ordenados, e também aos próximos vértices da lista que não são adjacentes aos vértices já coloridos com a primeira cor selecionada. Será feito este mesmo processo para os próximos vértices que ainda não foram coloridos, porém agora usando a próxima cor.
 	
 	\subsection{Objetivos}
 	

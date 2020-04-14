@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.4)  10 APR 2020 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.13)  13 APR 2020 23:38
 entering extended mode
 **"./iniciação cientifica.tex"
 ("iniciação cientifica.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
+"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -21,28 +22,35 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2020/02/28 3.41 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.d
+ef"
 File: switch.def 2020/02/28 3.41 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cf
+g"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-portuges\portuges.ldf"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-portuges\p
+ortuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.de
+f"
 File: babel.def 2020/02/28 3.41 Babel common definitions
 \babel@savecnt=\count175
 \U@D=\dimen135
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel
+.def")
 \bbl@readstream=\read2
 \bbl@dirlevel=\count176
 )
@@ -50,19 +58,22 @@ Package babel Info: \l@brazil = using hyphenrules for portuguese
 (babel)             (\language55) on input line 113.
 Package babel Info: Making " an active character on input line 145.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tree-dvips\lingmacros.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tree-dvips\lingm
+acros.sty"
 \c@enums=\count177
 \widelabel=\dimen136
 \c@tempcnt=\count178
 \c@enumsi=\count179
 \eeindent=\dimen137
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tree-dvips\tree-dvips.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tree-dvips\tree-
+dvips.sty"
 tree-dvips version .91 of May 16, 1995
 \nodemargin=\dimen138
 \treelinewidth=\dimen139
@@ -80,31 +91,39 @@ tree-dvips version .91 of May 16, 1995
 \pos@br=\toks24
 \@arrow=\count180
 \@tempdimc=\dimen144
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+)
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+x.sty"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks25
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+s.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/preprint\authblk.sty"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\authblk
+.sty"
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip49
 \@affilsep=\skip50
@@ -112,12 +131,12 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count182
 \c@affil=\count183
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
+end-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count184
 \l__pdf_internal_box=\box45
-)
-("iniciação cientifica.aux")
+) ("iniciação cientifica.aux")
 \openout1 = `"iniciação cientifica.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -135,7 +154,8 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
+-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count185
 \scratchdimen=\dimen147
@@ -148,7 +168,9 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count189
 \makeMPintoPDFobject=\count190
 \everyMPtoPDFconversion=\toks27
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+)
+("C:\Users\g.pedro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
+topdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -158,13 +180,12 @@ File: pontesKonisberg.jpg Graphic file (type jpg)
 <use pontesKonisberg.jpg>
 Package pdftex.def Info: pontesKonisberg.jpg  used on input line 27.
 (pdftex.def)             Requested size: 227.62537pt x 227.6274pt.
-
-[1
+ [1
 
 
 Non-PDF special ignored!
 <special> header=tree-dvips91.pro
-{C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/g.pedro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 <grafoKönigsberg.png, id=9, 220.825pt x 171.64125pt>
 File: grafoKönigsberg.png Graphic file (type png)
 <use grafoKönigsberg.png>
@@ -200,26 +221,39 @@ Overfull \hbox (4.07368pt too wide) in paragraph at lines 98--100
 , en-con-trar um numero
  []
 
-[5 <./grafoPlanar.png> <./grafoDual.png>] [6] [7] [8]
-("iniciação cientifica.aux") ) 
+[5 <./grafoPlanar.png> <./grafoDual.png>]
+<exemploProdutosQuimicos.jpg, id=29, 827.09pt x 444.66125pt>
+File: exemploProdutosQuimicos.jpg Graphic file (type jpg)
+<use exemploProdutosQuimicos.jpg>
+Package pdftex.def Info: exemploProdutosQuimicos.jpg  used on input line 117.
+(pdftex.def)             Requested size: 227.62082pt x 227.62234pt.
+<FrequenciaDeRadio.jpg, id=30, 697.60625pt x 534.99875pt>
+File: FrequenciaDeRadio.jpg Graphic file (type jpg)
+<use FrequenciaDeRadio.jpg>
+Package pdftex.def Info: FrequenciaDeRadio.jpg  used on input line 127.
+(pdftex.def)             Requested size: 227.62413pt x 227.62044pt.
+ [6] [7 <./exemploProdutosQuimicos.jpg>] [8 <./FrequenciaDeRadio.jpg>] [9] ("in
+iciação cientifica.aux") ) 
 Here is how much of TeX's memory you used:
- 2046 strings out of 480934
- 29343 string characters out of 2909674
+ 2069 strings out of 480934
+ 31285 string characters out of 2898981
  280316 words of memory out of 3000000
- 17918 multiletter control sequences out of 15000+200000
+ 17941 multiletter control sequences out of 15000+200000
  536891 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,27p,678b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "iniciação cientifica.pdf" (8 pages, 237665 bytes).
+ 30i,5n,27p,798b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/g.pedro/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/g.pedro/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/g.pedro/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/g.pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/g.pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Users/g.pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Users/g.pedro/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "iniciação cientifica.pdf" (9 pages, 356078 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
