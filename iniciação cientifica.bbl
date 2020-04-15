@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+
+\bibitem{BondyM08}
+J.~Bondy and U.~S.~R. Murty.
+\newblock {\em {Graph Theory}}, volume~4 of {\em Graduate texts in
+  mathematics}.
+\newblock Springer, New York, London, 2008.
+\newblock OHX.
+
+\bibitem{FourColorTheorem}
+Robin Thomas.
+\newblock The four color theorem.
+\newblock \url{https://people.math.gatech.edu/~thomas/FC/fourcolor.html},
+  Novembro 1995.
+\newblock Acessado em 14 de abril de 2020.
+
+\bibitem{OnGeographical}
+A.~B. Kempe.
+\newblock {\em On the geographical problem of the four colors}, volume~2.
+\newblock The Johns Hopkins University Press, London, 1879.
+
+\bibitem{MapColor}
+P.J. Heawood.
+\newblock {\em Map colour theorem}, volume~24.
+\newblock Quart. J. Pure Appl. Math, 1890.
+
+\bibitem{EveryFourPart1}
+K.~Appel and W.~Haken.
+\newblock Every planar map is four colorable. part i. discharging.
+\newblock {\em Illinois J. Math. 21}, pages 429--490, 1977.
+
+\bibitem{EveryFourPart2}
+K.~Appel and W.~Haken.
+\newblock Every planar map is four colorable. part ii. reducibility.
+\newblock {\em Illinois J. Math. 21}, pages 491--567, 1977.
+
+\bibitem{ColoracaoEAplicacoes}
+Atılio~Gomes Luiz.
+\newblock Coloracão de grafos e suas aplicacões.
+\newblock \url{https://www.ic.unicamp.br/~atilio/slidesWtisc.pdf}, Maio 2015.
+\newblock Acessado em 14 de abril de 2020.
+
+\bibitem{AlgortimosHeuristicas}
+Ruy~Eduardo Campello and Nelson Maculan.
+\newblock {\em Algoritmos e heurísticas - Desenvolvimento e avaliação de
+  performance}, volume~1.
+\newblock Eduff, 1994.
+
+\bibitem{Brooks41}
+R.~L. Brooks.
+\newblock {On colouring the nodes of a network}.
+\newblock {\em Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 37:194--197, 1941.
+
+\end{thebibliography}

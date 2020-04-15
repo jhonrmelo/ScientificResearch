@@ -5,6 +5,7 @@
 \usepackage{tree-dvips}
 \usepackage{graphicx}
 \usepackage{authblk}
+\usepackage{url}
 
 \title{Colorações próprias: um estudo aprofundado}
 \author{Autores: Gabriel Souza, Jonathan Melo}
@@ -16,7 +17,7 @@
 	\maketitle
 	
 	\section{Introdução}
-	Nesta seção serão mostrados os conceitos iniciais sobre grafos, os objetivos procurados durante a pesquisa sobre o tema, a justificativa para o tema escolhido, bem como a notação que será usada durante o documento para a descrição dos conceitos.
+	Nesta seção serão mostrados os conceitos iniciais sobre grafos, os objetivos procurados durante a pesquisa sobre o tema, a justificativa para o tema escolhido, bem como a notação que será usada durante o documento para a descrição dos conceitos.Para os demais conceitos e notações não definidos neste documento, indicamos ao leitor o livro ``Graph Theory'' de J. Bondy e U. S. R. Murty~\cite{BondyM08}
 	
 	A ideia inicial do que hoje se tornou um dos grandes estudos da área da matemática e tecnologia partiu de Leonhard Euler (1707 –1783) matemático e físico suíço que teve sua motivação para a criação do problema das Sete Pontes de Königsberg.
 	
@@ -35,21 +36,21 @@
 	Após criado o conceito inicial sobre grafos, um outro matemático introduziu uma nova forma de desenharmos um grafo, William Thomas Tutte (1917-2002) definiu que um grafo poderia ser representado por vértices(pontos) e arestas(linhas), aonde os vértices são interligados por arestas conectados a eles, trazendo esta definição para o problema das sete pontes, definiríamos que ponte do mapa seria uma aresta e cada ilha seria um vértice, tendo sua definição visual parecida com a Figura 2.
 	
 	
-	\begin{figure}[!htb]
+   \begin{figure}[!htb]
 		\centering
 		\includegraphics[width=6cm, height=6cm]{grafoKönigsberg}
-		\caption{Representação do grafo das sete pontes de Königsberg}    
+		\caption{ Grafo das sete pontes de Königsberg}    
 	\end{figure}
-	
-	
+
+
 	\subsection{Conceitos técnicos da Teoria de Grafos}
-	Como vimos na seção anterior, após as descobertas de Euler, foram introduzidos novas maneiras de lidarmos com problemas parecidos.
+    Como vimos na seção anterior, após as descobertas de Euler, foram introduzidos novas maneiras de lidarmos com problemas parecidos.
 	Um grafo $G$ é composto por vértices $v$ e arestas $e$ sendo sua composição completa denotada como $G (v, e)$. O número de vértices contidas em um grafo é definido como a Ordem do grafo $n$ e o número de arestas é o seu Tamanho $m$. Esses conceitos iniciais sobre o tema, podem ser desdobrados em outros conceitos que complementam e inserem novas definições para o grafo.
 	
 	\subsubsection{Vizinhança de vértices}
 	
 	Em um grafo $G$ existem os vértices $u$ e $v$ ligados por uma aresta de $G$, baseado nessas afirmações podemos definir que os vértices $u$ e $v$ são adjacentes ou vizinhos, caso em nosso grafo existissem mais duas vértices ligadas a vértice $v$ sendo elas $z$ e $w$, poderíamos a partir disso definir que a vizinhança de $V$ é: $n (V) \{u, z, w\}$, representado visualmente na Figura 3. 
-	
+		
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[width=5cm, height=5cm]{vizinhanca}
@@ -69,96 +70,90 @@
 	
 	Antes de introduzirmos a motivação para o problema da coloração própria, é preciso definir o conceito de um grafo planar, visto que este tipo de grafo foi a motivação inicial para a criação da primeira definição da coloração própria de grafo.
 	Um grafo $G$ é considerado planar se puder ser desenhado no plano sem que nenhuma de suas arestas se cruzem, exemplo de um grafo planar existente na Figura 4.
+		
+	
+	A primeira ideia de coloração própria se deu em 1852 aonde o matemático Francis Guthrie criou a teoria que para todo mapa o número mínimo de cores necessárias para pinta-lo para que nenhuma de suas regiões que partilhassem fronteiras fossem pintadas da mesma cor era sempre quatro~\cite{FourColorTheorem}.
 	
 	
-	A primeira ideia de coloração própria se deu em 1852 aonde o matemático Francis Guthrie criou a teoria que para todo mapa o número mínimo de cores necessárias para pinta-lo para que nenhuma de suas regiões que partilhassem fronteiras fossem pintadas da mesma cor era sempre quatro.
-	
-	
-	Em 1879 Alfred Bray Kempe publicou a primeira suposta solução para a teoria das quatro cores, solução essa que foi considerada incorreta por Percy Heawood em 1890, que também foi o criador do teorema das Cinco cores, e provou a veracidade do mesmo.
-	
+	Em 1879 Alfred Bray Kempe publicou a primeira suposta solução para a teoria das quatro cores em um trecho do livro intitulado de ''On the geographical problem of the four colors''\cite{OnGeographical} , solução essa que foi considerada incorreta por Percy Heawood em 1890, que também foi o criador do teorema das Cinco cores, e provou a veracidade do mesmo em seu livro publicado em 1890 chamado de ``Map colour theorem ''~\cite{MapColor}.
+		
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[width=3cm, height=3cm]{grafoPlanar}
-		\caption{Exemplo de grafo planar}    
+		\caption{Grafo planar}    
 	\end{figure}
+
+	Apesar de ser considerado incorreta a teoria de Kempe, ela foi grande influenciadora para que em 1977 Kenneth Appel (1932-2013) e Wolfgang Haken(1928) com o auxílio do uso de um computador, provassem novamente que a teoria das quatro cores era correta.As informações desses resultados podem ser encontradas nos artigos ``Every planar map is four colorable. Part I. Discharging, \cite{EveryFourPart1} '' e 	``Every planar map is four colorable. Part II. Reducibility, \cite{EveryFourPart2} ''
 	
-	Apesar de ser considerado incorreta a teoria de Kempe, ela foi grande influenciadora para que em 1977 Kenneth Appel (1932-2013) e Wolfgang Haken(1928) com o auxílio do uso de um computador, provassem novamente que a teoria das quatro cores era correta.
 	
 	Os mapas estudados por esses matemáticos são considerados mapas que podem ser representados por um grafo, o nome que esse grafo leva é grafo dual. 
 	
 	\begin{figure}[!htb]
 		\centering
-		\includegraphics[width=8cm,height=4cm]{grafoDual}
-		\caption{Exemplo de grafo Dual}    
+		 \includegraphics[width=8cm,height=4cm]{grafoDual}
+		\caption{Grafo Dual}    
 	\end{figure}
-	
+
 	
 	\subsubsection{Complexidade da solução}
 	
 	Nos problemas envolvendo coloração própria de vértices, encontrar um número $k$ de cores possíveis é mais simples do que encontrar $\chi(G)$, visto que se tivermos $n$ vértices podemos ter que $k = n$ e ter uma cor para cada vértice do grafo. Baseado nessa afirmação podemos concluir que a maior dificuldade para este tema é encontrar o número cromático da instância ou o menor número de cores possível, transformando este tema em um problema computacional extremamente difícil aonde validar uma solução é simples porém achar uma solução se torna muito difícil.
 	Validar uma solução como citado acima nos casos de coloração própria é simples pois baseado na instância que nos foi dada, podemos validar todos os vértices adjacentes a ele de forma rápida, validando se eles tem ou não a mesma cor. Já para criarmos uma solução isso se torna extremamente difícil, dado um grafo $G$ aonde $V(G) = \{v_{1}, .... V_{n} \}$, para encontrar a solução com o melhor número cromático desta instância devemos validar todas as situações e adjacências de todos os vértices do grafo, para isso normalmente são utilizados algoritmos de busca que serão citados e explicados posteriormente.
-	
+	z
 	\subsubsection{Aplicação reais do tema}
 	
-	Neste tópico iremos descrever algumas aplicações no nosso dia aonde o auxílio do conceito de coloração própria de grafos seria útil para encontrarmos a melhor solução para o problema escolhido.
+	Neste tópico iremos descrever algumas aplicações no nosso dia aonde o auxílio do conceito de coloração própria de grafos seria útil para encontrarmos a melhor solução para o problema escolhido. Os Exemplos citados foram adaptados do autor Atílio Gomes Luiz em sua apresentação sobre coloração de grafos intitulada de  ''Coloração de grafos e suas aplicações~\cite{ColoracaoEAplicacoes}''.
+
 	
+	\begin{itemize}
+		
 	
-	\subsubsection*{1.2.3.1 Organização de provas de uma universidade}
+    \item \textbf{Organização de provas de uma universidade.}	Um dos melhores de exemplo do uso da coloração própria em aplicações reais é na organização de provas de uma universidade aonde é necessário que duas disciplinas que contiverem alunos em comum não podem ter suas provas agendadas no mesmo horário, levando-nos a seguinte pergunta, qual seria o menor número de horários que a universidade teria de usar para aplicar todas as provas respeitando as regras da instância?
 	
-	Um dos melhores de exemplo do uso da coloração própria em aplicações reais é na organização de provas de uma universidade aonde é necessário que duas disciplinas que contiverem alunos em comum não podem ter suas provas agendadas no mesmo horário, levando-nos a seguinte pergunta, qual seria o menor número de horários que a universidade teria de usar para aplicar todas as provas respeitando as regras da instância?
-	
-	
-	\subsubsection*{   1.2.3.2 Organizações de produtos químicos em uma indústria}
-	
-	Em uma indústria química existem $n$ produtos, aonde muitos deles compartilham o mesmo tipo de composição, produtos esses que não podem ser colocados juntos devido a possibilidade de que uma reação química estragassem os mesmos. Baseado nessa instância, qual seria o menor número de compartimentos possíveis para guardar esses produtos de forma que produtos com a mesma composição não podem ser colocados juntos.
-	
-	\begin{figure}[!htb]
-		\centering
-		\includegraphics[width=8cm, height=8cm]{exemploProdutosQuimicos}
-		\caption{Exemplo de separação de produtos químicos}    
-	\end{figure}
-	
-	\subsubsection*{   1.3.3.3 Atribuição de frequências de rádio}
-	
-	Nesse caso o grafo nos ajuda da seguinte forma. Os transmissores (antenas) são representados como vértices. Uma estação não pode se sobrepor a outra, caso isso venha a ocorrer, causará interferência, porque elas poderiam usar a mesma frequência.
-	
-	\begin{figure}[!htb]
-		\centering
-		\includegraphics[width=8cm, height=8cm]{FrequenciaDeRadio}
-		\caption{Exemplo de mapa de frequência de rádio}    
-	\end{figure}
-	
+    \item \textbf{Organizações de produtos químicos em uma indústria.} Em uma indústria química existem $n$ produtos, aonde muitos deles compartilham o mesmo tipo de composição, produtos esses que não podem ser colocados juntos devido a possibilidade de que uma reação química estragassem os mesmos. Baseado nessa instância, qual seria o menor número de compartimentos possíveis para guardar esses produtos de forma que produtos com a mesma composição não podem ser colocados juntos. Para organizar a possível coloração própria dessa situação e definir o seu grafo, primeiro teríamos que abstrair as informações dadas e transforma-las para a estrutura de um grafo. Nesse caso iriamos definir que cada composto iria ser um vértice e compostos que colocados juntos poderiam executar uma reação química estariam ligados por uma aresta, baseado nisso poderíamos descobrir qual seria o menor numero de cores usadas para colorir o grafo e voltando para o nosso problema inicial poderíamos descobrir o menor numero de compartimentos possíveis para guarda esses produtos.
+   \end{itemize}
 	\subsubsection{Algoritmos de coloração conhecidos}
 	
 	Nesta seção iremos mostrar conceitos de algoritmos conhecidos que auxiliam na obtenção da melhor solução para uma instância de coloração própria, visto que a complexidade deste problema é extremamente difícil, a maioria de seus algoritmos são baseados na premissa da busca incansável, aonde iremos executar todas as situações da instância a fim de no final separar a melhor delas.
 	
-	\subsubsection*{1.2.4.1 Algoritmo de força bruta}
-	Dado um grafo $G$ simples onde $V(G) = \{v_{1}, ... V_{N},\}$ o algoritmo de força bruta com o objetivo de buscar um k-coloração iria verificar cada uma das Kn atribuições possíveis verificando se cada uma delas está correta. Em uma instância pequena do problema, o algoritmo de força bruta encontraria o resultado de forma relativamente rápida, porém se consideramos que quanto maior a instância do problema maior seria a quantidade de atribuições que deverão ser testadas, esse algoritmo se torna inutilizável e computacionalmente inviável.
+   \begin{itemize}
+		
+   \item \textbf{Força bruta.}	Dado um grafo $G$ simples onde $V(G) = \{v_{1}, ... V_{N},\}$ o algoritmo de força bruta com o objetivo de buscar um k-coloração iria verificar cada uma das Kn atribuições possíveis verificando se cada uma delas está correta. Em uma instância pequena do problema, o algoritmo de força bruta encontraria o resultado de forma relativamente rápida, porém se consideramos que quanto maior a instância do problema maior seria a quantidade de atribuições que deverão ser testadas, esse algoritmo se torna inutilizável e computacionalmente inviável.
 	
-	\subsubsection*{1.2.4.2 Algoritmo Guloso}
 	
-	O algoritmo guloso é aquele que faz sempre a melhor escolha local minimizada, esperando que essa escolha se torne também a melhor escolha em um estado global da instância do problema.
+    \item \textbf{Algoritmo guloso.} O algoritmo guloso é aquele que faz sempre a melhor escolha local minimizada, esperando que essa escolha se torne também a melhor escolha em um estado global da instância do problema.
 	Este algoritmo sempre irá trazer a solução para o problema, porém esta solução não necessariamente é a melhor possível, e sim a melhor que o algoritmo encontrou dado as suas condições de busca.
 	
 	
-	\subsubsection*{1.2.4.3 Algoritmo de Welsh-Powell}
+    
+	\item \textbf{Algoritmo de Welsh-Powell.} Como citado no livro "Algoritmos e heurísticas - Desenvolvimento e avaliação de performance" escrito por Ruy Eduardo Campello e Nelson Maculan~\cite{AlgortimosHeuristicas}  o algoritmo de Welsh-Powell foi criado em 1976 e é um algoritmo guloso que visa a obtenção inicial do grau de cada vértice do grafo e ordenação dos mesmos em ordem decrescente do seu grau. Com base nisso sabemos que dado essa ordenação será associado uma cor para o primeiro vértice da lista de vértices ordenados, e também aos próximos vértices da lista que não são adjacentes aos vértices já coloridos com a primeira cor selecionada. Será feito este mesmo processo para os próximos vértices que ainda não foram coloridos, porém agora usando a próxima cor.
 	
-	Como citado no livro "Algoritmos e heurísticas - Desenvolvimento e avaliação de performance" escrito por Ruy Eduardo Campello e Nelson Maculan encontramos que o algoritmo de Welsh-Powell foi criado em 1976 e é um algoritmo guloso que visa a obtenção inicial do grau de cada vértice do grafo e ordenação dos mesmos em ordem decrescente do seu grau. Com base nisso sabemos que dado essa ordenação será associado uma cor para o primeiro vértice da lista de vértices ordenados, e também aos próximos vértices da lista que não são adjacentes aos vértices já coloridos com a primeira cor selecionada. Será feito este mesmo processo para os próximos vértices que ainda não foram coloridos, porém agora usando a próxima cor.
-	
+   \end{itemize}
+ 
 	\subsection{Objetivos}
 	
-	O tema dessa pesquisa é muito amplo e completo, de forma que seus conhecimentos se desdobram em várias áreas da ciência da computação e matemática, o objetivo deste projeto é que com o estudo teórico e técnico de várias técnicas e conceitos já criados anteriormente que avançam constantemente o estudo do tema atualmente.
-	Estes estudos serão de grande influência para o nosso desenvolvimento matemático e computacional, visto que todas as técnicas até hoje criadas se desdobram dessas teorias, sendo esse o principal objetivo do projeto.
+	O tema dessa pesquisa é muito amplo e completo, de forma que seus conhecimentos se desdobram em várias áreas da ciência da computação e matemática. O objetivo deste projeto é o estudo teórico de várias técnicas e conceitos presentes na literatura. Ademais, deseja-se o avanço científico do estudo do tema, propondo novos resultados em colorações de grafos, seja em algoritmos ou em propriedades estruturais. Alguns objetivos pontuais são descritos em seguida.
+	
+	\begin{enumerate}
+		\item Desenvolver  o conhecimento e a desenvoltura na área da matemática discreta, com aplicações em Teoria de Grafos e, especificamente, na área de colorações próprias de grafos.
+		\item Criar a capacidade de reconhecer o estado da arte, através da leitura de artigos científicos publicados em periódicos de renome, pesquisando a literatura vigente e identificando problemas em aberto no tópico.
+		\item Conhecer e estudar os principais resultados teóricos na área de colorações de grafos, como, por exemplo, o Teorema das Quatro Cores, a equivalência de bipartição, o Teorema de Brooks~\cite{Brooks41}, entre outros.
+	\end{enumerate}
 	
 	
-	\section{Materiais e métodos}
+        \section{Material e métodos}
+
+       No desenvolvimento desse projeto, serão necessários um ambiente para estudo e para as reuniões com o orientador, e acesso às bibliotecas física e digital, para possíveis consultas.
+
+       Os estudos serão realizados em dupla, com o auxílio do orientador durante nossas reuniões semanais para   alinhamentos do projeto e para sanar possíveis dúvidas. Toda semana, o orientador se compromete a levantar questionamentos sobre o andamento do projeto, os resultados alcançados durante a semana e as metas de pesquisa para a próxima. Por fim, ressaltamos que o projeto será desenvolvido em conjunto com a disciplina teórica J702 - Teoria de Grafos, do qual o orientador é o professor. Portanto, o projeto de pesquisa permitirá que os alunos abordem com mais profundidade os conceitos expostos em sala de aula, além de ter contato com outras áreas da Teoria da Computação.
+ 
+      É importante informar que, em virtude do COVID-19 e de acordo com as normas impostas pelo Governo  do Estado de São Paulo e pelo Ministério da Saúde, as reuniões semanais serão realizadas utilizando plataformas online como Zoom, Google Meet e/ou Discord. 
+
 	
 	
-	
-	\section{Resultados esperados}
-	Para os resultados esperados ao longo da nossa pesquisa, é esperado que desenvolvamos conhecimento e desenvoltura na área da matemática aplicada, que se desdobra nos estudos da Teoria de Grafos e consequentemente no estudo e aprofundamento das técnicas e teorias da coloração própria e seu estado de arte.
-	
-	
+	\bibliographystyle{unsrt}
+	\bibliography{/Projects/Iniciacaocienteifica/bibliography}
 	
 \end{document}
+
 
